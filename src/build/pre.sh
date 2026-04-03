@@ -1,5 +1,5 @@
 #!/bin/sh
-apt install wget
+sudo apt install wget
 wk="$1"
 mm="$2"
 yyyy="$3"
