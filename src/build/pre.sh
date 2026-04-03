@@ -59,7 +59,7 @@ else
     mmdef=$(date -d "@$now" "+%m")
 fi
 mmdef=${mmdef#0}
-
+apt install wget
 # defaults: stackoverflow.com/a/28085062
 : "${wk:=$wkdef}" "${mm:=$mmdef}" "${yyyy:=$yyyydef}"
 
